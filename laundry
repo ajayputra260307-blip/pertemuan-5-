@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    int junlah;
+    cout << "== Laundry: Cek Kapasitas Cucian ==";
+    cout << "Masukkan jumlah pakaian: ";
+    cin >> jumlah;
+    
+    if (jumlah <= 10){
+        cout << "Reguler";
+    }else if(jumlah <= 20){
+        cout << "Express";
+    }else {
+        cout << "Kapasitas mesin penuh, pisahkan cucian!!";
+    }
+    return 0;
+}
